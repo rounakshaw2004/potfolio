@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rounak Shaw — BCA student, software and web development portfolio.">
+  <meta name="author" content="Rounak Shaw">
+  <meta property="og:title" content="Rounak Shaw | Developer Portfolio">
+  <meta property="og:description" content="Professional portfolio of Rounak Shaw.">
+  <meta property="og:type" content="website">
+  <title>Rounak Shaw | Developer Portfolio</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3ERS%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+
+  <header class="site-header" id="home">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Rounak Shaw home">
+        <span class="brand-mark">RS</span>
+        <span>Rounak<span class="accent">.</span></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark and light mode">☼</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container section">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> Open to opportunities</div>
+        <h1>Hi, I'm <span class="gradient-text">Rounak Shaw</span>.</h1>
+        <h2 id="heroTitle">BCA Student • Software & Web Developer</h2>
+        <p class="hero-text">
+          I build practical technology projects while continuously developing my skills in software development,
+          web development, databases, cloud technologies and programming.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View My Work <span>↗</span></a>
+          <a class="btn btn-secondary" href="assets/resume/Rounak_Shaw_Resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a>
+          <a class="btn btn-whatsapp" id="heroWhatsapp" href="#" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        </div>
+        <div class="social-row" id="heroSocials"></div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="code-card">
+          <div class="code-top"><span></span><span></span><span></span><small>portfolio.js</small></div>
+          <pre><code><span class="purple">const</span> developer = {
+  name: <span class="green">"Rounak Shaw"</span>,
+  degree: <span class="green">"BCA"</span>,
+  focus: [
+    <span class="green">"Web Development"</span>,
+    <span class="green">"Java"</span>,
+    <span class="green">"Databases"</span>,
+    <span class="green">"Cloud"</span>
+  ],
+  mindset: <span class="green">"Keep Building"</span>
+};</code></pre>
+        </div>
+        <div class="floating-chip chip-one">HTML • CSS • JS</div>
+        <div class="floating-chip chip-two">Java • MySQL</div>
+      </div>
+    </section>
+
+    <section class="stats container reveal">
+      <div><strong>01</strong><span>Developer Journey</span></div>
+      <div><strong>06</strong><span>Academic Semesters</span></div>
+      <div><strong>∞</strong><span>Things to Learn</span></div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading reveal"><span>01 / About</span><h2>Building skills through <em>practice.</em></h2></div>
+      <div class="about-grid">
+        <div class="about-lead reveal">
+          <p>I am a Bachelor of Computer Applications student focused on turning what I learn into practical projects.</p>
+          <p>My interests span programming, web development, databases, cloud technologies and data-related concepts. I enjoy understanding how applications work and improving them through hands-on practice.</p>
+        </div>
+        <div class="about-card reveal">
+          <span class="card-kicker">CURRENT DIRECTION</span>
+          <h3>Learn → Build → Improve</h3>
+          <p>My portfolio is designed to grow with my skills, projects, certifications and professional journey.</p>
+          <a href="#contact" class="text-link">Let's connect →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="education">
+      <div class="container">
+        <div class="section-heading reveal"><span>02 / Education</span><h2>Academic <em>foundation.</em></h2></div>
+        <div class="timeline reveal">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="card-kicker">CURRENT</span>
+              <h3>Bachelor of Computer Applications (BCA)</h3>
+              <p>Techno India Kolkata</p>
+              <p class="muted">Focused on programming, databases, operating systems, web technologies and software development.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading reveal"><span>03 / Skills</span><h2>Tools I use to <em>build.</em></h2></div>
+      <div class="skill-grid" id="skillGrid"></div>
+    </section>
+
+    <section class="section section-dark" id="projects">
+      <div class="container">
+        <div class="section-heading light reveal"><span>04 / Projects</span><h2>Selected <em>work.</em></h2></div>
+        <div class="project-grid" id="projectGrid"></div>
+      </div>
+    </section>
+
+    <section class="section container" id="certifications">
+      <div class="section-heading reveal"><span>05 / Certifications</span><h2>Learning beyond the <em>classroom.</em></h2></div>
+      <div class="cert-grid" id="certGrid"></div>
+    </section>
+
+    <section class="section section-muted" id="learning">
+      <div class="container">
+        <div class="section-heading reveal"><span>06 / Currently Exploring</span><h2>Always <em>learning.</em></h2></div>
+        <div class="learning-box reveal">
+          <div><span class="big-number">01</span><h3>Deepen technical foundations</h3><p>Strengthen programming, database, web development and software engineering skills through projects.</p></div>
+          <div><span class="big-number">02</span><h3>Build recruiter-ready projects</h3><p>Create practical applications that demonstrate problem solving and real development ability.</p></div>
+          <div><span class="big-number">03</span><h3>Prepare for the professional world</h3><p>Continue developing communication, interview and technical problem-solving skills.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container contact-section" id="contact">
+      <div class="contact-panel reveal">
+        <div>
+          <span class="card-kicker">LET'S CONNECT</span>
+          <h2>Have an idea?<br><em>Let's talk.</em></h2>
+          <p>Whether it's a project, internship opportunity or professional connection, feel free to reach out.</p>
+        </div>
+        <div class="contact-actions" id="contactActions"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div><strong>Rounak Shaw<span class="accent">.</span></strong><p>Building today. Learning every day.</p></div>
+      <div class="social-row" id="footerSocials"></div>
+      <p class="copyright">© <span id="year"></span> </p>
+    </div>
+  </footer>
+
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose" aria-label="Close project details">×</button>
+      <span class="card-kicker" id="modalType">PROJECT</span>
+      <h2 id="modalTitle">Project details</h2>
+      <p id="modalDescription"></p>
+      <div class="modal-tags" id="modalTags"></div>
+      <div class="modal-links" id="modalLinks"></div>
+    </div>
+  </div>
+
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+  <script src="data/portfolio-data.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
