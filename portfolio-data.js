@@ -35,7 +35,7 @@ const portfolioData = {
       description: "A responsive personal developer portfolio built with semantic HTML, custom CSS and vanilla JavaScript.",
       tags: ["HTML", "CSS", "JavaScript"],
       type: "Frontend",
-      links: { github: "ADD_PROJECT_GITHUB_URL", demo: "#" }
+      links: { github: "ADD_PROJECT_GITHUB_URL", demo: "https://github.com/rounakshaw2004" }
     }
   ],
 
