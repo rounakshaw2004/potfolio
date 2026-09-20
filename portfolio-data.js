@@ -1,8 +1,8 @@
 const portfolioData = {
   social: {
-    whatsapp: "https://wa.me/916291134301?text=Hello%20Rounak%2C%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20connect%20with%20you.",
+    whatsapp: "https://wa.me/918902392827?text=Hello%20Rounak%2C%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20connect%20with%20you.",
     instagram: "ADD_YOUR_INSTAGRAM_URL",
-    linkedin: "ADD_YOUR_LINKEDIN_URL",
+    linkedin: "https://www.linkedin.com/in/rounak-shaw-271a16321?utm_source=share_via&utm_content=profile&utm_medium=member_android",
     github: "ADD_YOUR_GITHUB_URL",
     email: "rounakshaw004@gmail.com"
   },
