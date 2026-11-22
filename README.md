@@ -1,15 +1,5 @@
 <div align="center">
 
-# Rounak Shaw · Portfolio
-
-**A personal portfolio for my education, skills, projects, and certifications.**
-
-[![Portfolio](https://img.shields.io/badge/Live%20Portfolio-Visit-ec4899?style=for-the-badge)](https://rounakshaw2004.github.io/potfolio/)
-[![GitHub](https://img.shields.io/badge/GitHub-rounakshaw2004-181717?style=for-the-badge&logo=github)](https://github.com/rounakshaw2004)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/rounak-shaw-271a16321)
-
-<br />
-
 <a href="https://rounakshaw2004.github.io/potfolio/">
   <img src="og-image.jpg" alt="Rounak Shaw portfolio website preview" width="100%" />
 </a>
